@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CCD84351E5185A700EAED96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD84341E5185A700EAED96 /* main.m */; };
+		5CCD84381E5185A700EAED96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD84371E5185A700EAED96 /* AppDelegate.m */; };
+		5CCD843B1E5185A700EAED96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD843A1E5185A700EAED96 /* ViewController.m */; };
+		5CCD843E1E5185A700EAED96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD843C1E5185A700EAED96 /* Main.storyboard */; };
+		5CCD84401E5185A700EAED96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD843F1E5185A700EAED96 /* Assets.xcassets */; };
+		5CCD84431E5185A700EAED96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD84411E5185A700EAED96 /* LaunchScreen.storyboard */; };
+		5CCD844E1E5185A700EAED96 /* _________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD844D1E5185A700EAED96 /* _________________Tests.m */; };
+		5CCD84591E5185A700EAED96 /* _________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD84581E5185A700EAED96 /* _________________UITests.m */; };
+		5CCD84681E51867600EAED96 /* UIResponder+YYResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD84671E51867600EAED96 /* UIResponder+YYResponder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CCD844A1E5185A700EAED96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCD84281E5185A700EAED96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCD842F1E5185A700EAED96;
+			remoteInfo = "引入类别解决所有键盘遮挡输入框问题";
+		};
+		5CCD84551E5185A700EAED96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCD84281E5185A700EAED96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCD842F1E5185A700EAED96;
+			remoteInfo = "引入类别解决所有键盘遮挡输入框问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CCD84301E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "引入类别解决所有键盘遮挡输入框问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCD84341E5185A700EAED96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CCD84361E5185A700EAED96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CCD84371E5185A700EAED96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CCD84391E5185A700EAED96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CCD843A1E5185A700EAED96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CCD843D1E5185A700EAED96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCD843F1E5185A700EAED96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CCD84421E5185A700EAED96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CCD84441E5185A700EAED96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCD84491E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "引入类别解决所有键盘遮挡输入框问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCD844D1E5185A700EAED96 /* _________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________________Tests.m"; sourceTree = "<group>"; };
+		5CCD844F1E5185A700EAED96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCD84541E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "引入类别解决所有键盘遮挡输入框问题UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCD84581E5185A700EAED96 /* _________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________________UITests.m"; sourceTree = "<group>"; };
+		5CCD845A1E5185A700EAED96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCD84661E51867600EAED96 /* UIResponder+YYResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+YYResponder.h"; sourceTree = "<group>"; };
+		5CCD84671E51867600EAED96 /* UIResponder+YYResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+YYResponder.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCD842D1E5185A700EAED96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD84461E5185A700EAED96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD84511E5185A700EAED96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCD84271E5185A700EAED96 = {
+			isa = PBXGroup;
+			children = (
+				5CCD84321E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题 */,
+				5CCD844C1E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests */,
+				5CCD84571E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests */,
+				5CCD84311E5185A700EAED96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCD84311E5185A700EAED96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD84301E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题.app */,
+				5CCD84491E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests.xctest */,
+				5CCD84541E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCD84321E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题 */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD84661E51867600EAED96 /* UIResponder+YYResponder.h */,
+				5CCD84671E51867600EAED96 /* UIResponder+YYResponder.m */,
+				5CCD84361E5185A700EAED96 /* AppDelegate.h */,
+				5CCD84371E5185A700EAED96 /* AppDelegate.m */,
+				5CCD84391E5185A700EAED96 /* ViewController.h */,
+				5CCD843A1E5185A700EAED96 /* ViewController.m */,
+				5CCD843C1E5185A700EAED96 /* Main.storyboard */,
+				5CCD843F1E5185A700EAED96 /* Assets.xcassets */,
+				5CCD84411E5185A700EAED96 /* LaunchScreen.storyboard */,
+				5CCD84441E5185A700EAED96 /* Info.plist */,
+				5CCD84331E5185A700EAED96 /* Supporting Files */,
+			);
+			path = "引入类别解决所有键盘遮挡输入框问题";
+			sourceTree = "<group>";
+		};
+		5CCD84331E5185A700EAED96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD84341E5185A700EAED96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCD844C1E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD844D1E5185A700EAED96 /* _________________Tests.m */,
+				5CCD844F1E5185A700EAED96 /* Info.plist */,
+			);
+			path = "引入类别解决所有键盘遮挡输入框问题Tests";
+			sourceTree = "<group>";
+		};
+		5CCD84571E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD84581E5185A700EAED96 /* _________________UITests.m */,
+				5CCD845A1E5185A700EAED96 /* Info.plist */,
+			);
+			path = "引入类别解决所有键盘遮挡输入框问题UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCD842F1E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCD845D1E5185A700EAED96 /* Build configuration list for PBXNativeTarget "引入类别解决所有键盘遮挡输入框问题" */;
+			buildPhases = (
+				5CCD842C1E5185A700EAED96 /* Sources */,
+				5CCD842D1E5185A700EAED96 /* Frameworks */,
+				5CCD842E1E5185A700EAED96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "引入类别解决所有键盘遮挡输入框问题";
+			productName = "引入类别解决所有键盘遮挡输入框问题";
+			productReference = 5CCD84301E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CCD84481E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCD84601E5185A700EAED96 /* Build configuration list for PBXNativeTarget "引入类别解决所有键盘遮挡输入框问题Tests" */;
+			buildPhases = (
+				5CCD84451E5185A700EAED96 /* Sources */,
+				5CCD84461E5185A700EAED96 /* Frameworks */,
+				5CCD84471E5185A700EAED96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCD844B1E5185A700EAED96 /* PBXTargetDependency */,
+			);
+			name = "引入类别解决所有键盘遮挡输入框问题Tests";
+			productName = "引入类别解决所有键盘遮挡输入框问题Tests";
+			productReference = 5CCD84491E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CCD84531E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCD84631E5185A700EAED96 /* Build configuration list for PBXNativeTarget "引入类别解决所有键盘遮挡输入框问题UITests" */;
+			buildPhases = (
+				5CCD84501E5185A700EAED96 /* Sources */,
+				5CCD84511E5185A700EAED96 /* Frameworks */,
+				5CCD84521E5185A700EAED96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCD84561E5185A700EAED96 /* PBXTargetDependency */,
+			);
+			name = "引入类别解决所有键盘遮挡输入框问题UITests";
+			productName = "引入类别解决所有键盘遮挡输入框问题UITests";
+			productReference = 5CCD84541E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCD84281E5185A700EAED96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "POSUN-MAC";
+				TargetAttributes = {
+					5CCD842F1E5185A700EAED96 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5CCD84481E5185A700EAED96 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CCD842F1E5185A700EAED96;
+					};
+					5CCD84531E5185A700EAED96 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CCD842F1E5185A700EAED96;
+					};
+				};
+			};
+			buildConfigurationList = 5CCD842B1E5185A700EAED96 /* Build configuration list for PBXProject "引入类别解决所有键盘遮挡输入框问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCD84271E5185A700EAED96;
+			productRefGroup = 5CCD84311E5185A700EAED96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCD842F1E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题 */,
+				5CCD84481E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题Tests */,
+				5CCD84531E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCD842E1E5185A700EAED96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD84431E5185A700EAED96 /* LaunchScreen.storyboard in Resources */,
+				5CCD84401E5185A700EAED96 /* Assets.xcassets in Resources */,
+				5CCD843E1E5185A700EAED96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD84471E5185A700EAED96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD84521E5185A700EAED96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCD842C1E5185A700EAED96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD843B1E5185A700EAED96 /* ViewController.m in Sources */,
+				5CCD84381E5185A700EAED96 /* AppDelegate.m in Sources */,
+				5CCD84351E5185A700EAED96 /* main.m in Sources */,
+				5CCD84681E51867600EAED96 /* UIResponder+YYResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD84451E5185A700EAED96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD844E1E5185A700EAED96 /* _________________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD84501E5185A700EAED96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD84591E5185A700EAED96 /* _________________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CCD844B1E5185A700EAED96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCD842F1E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题 */;
+			targetProxy = 5CCD844A1E5185A700EAED96 /* PBXContainerItemProxy */;
+		};
+		5CCD84561E5185A700EAED96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCD842F1E5185A700EAED96 /* 引入类别解决所有键盘遮挡输入框问题 */;
+			targetProxy = 5CCD84551E5185A700EAED96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CCD843C1E5185A700EAED96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCD843D1E5185A700EAED96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CCD84411E5185A700EAED96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCD84421E5185A700EAED96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCD845B1E5185A700EAED96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CCD845C1E5185A700EAED96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCD845E1E5185A700EAED96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "引入类别解决所有键盘遮挡输入框问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangYue.-----------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CCD845F1E5185A700EAED96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "引入类别解决所有键盘遮挡输入框问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangYue.-----------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CCD84611E5185A700EAED96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "引入类别解决所有键盘遮挡输入框问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangYue.-----------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/引入类别解决所有键盘遮挡输入框问题.app/引入类别解决所有键盘遮挡输入框问题";
+			};
+			name = Debug;
+		};
+		5CCD84621E5185A700EAED96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "引入类别解决所有键盘遮挡输入框问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangYue.-----------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/引入类别解决所有键盘遮挡输入框问题.app/引入类别解决所有键盘遮挡输入框问题";
+			};
+			name = Release;
+		};
+		5CCD84641E5185A700EAED96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "引入类别解决所有键盘遮挡输入框问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangYue.-----------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "引入类别解决所有键盘遮挡输入框问题";
+			};
+			name = Debug;
+		};
+		5CCD84651E5185A700EAED96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "引入类别解决所有键盘遮挡输入框问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yangYue.-----------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "引入类别解决所有键盘遮挡输入框问题";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCD842B1E5185A700EAED96 /* Build configuration list for PBXProject "引入类别解决所有键盘遮挡输入框问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD845B1E5185A700EAED96 /* Debug */,
+				5CCD845C1E5185A700EAED96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCD845D1E5185A700EAED96 /* Build configuration list for PBXNativeTarget "引入类别解决所有键盘遮挡输入框问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD845E1E5185A700EAED96 /* Debug */,
+				5CCD845F1E5185A700EAED96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CCD84601E5185A700EAED96 /* Build configuration list for PBXNativeTarget "引入类别解决所有键盘遮挡输入框问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD84611E5185A700EAED96 /* Debug */,
+				5CCD84621E5185A700EAED96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CCD84631E5185A700EAED96 /* Build configuration list for PBXNativeTarget "引入类别解决所有键盘遮挡输入框问题UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD84641E5185A700EAED96 /* Debug */,
+				5CCD84651E5185A700EAED96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCD84281E5185A700EAED96 /* Project object */;
+}
