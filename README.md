@@ -1,2 +1,3 @@
 # KeyBoardManager
 KeyBoardManager
+同过在项目添加类别文件UIResponder+YYResponder.h从而防止输入框输入时遮挡输入框
